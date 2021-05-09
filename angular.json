@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "theming-angular"
+  "defaultProject": "theming-angular",
+  "cli": {
+    "analytics": false
+  }
 }
