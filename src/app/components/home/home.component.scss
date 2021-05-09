@@ -1,0 +1,14 @@
+.credit {
+  margin: auto;
+  width: fit-content;
+  font-size: 10px;
+  cursor: pointer;
+  .heart {
+    color: red;
+  }
+}
+.link {
+  color: var(--link-primary);
+  cursor: pointer;
+  text-decoration: underline;
+}

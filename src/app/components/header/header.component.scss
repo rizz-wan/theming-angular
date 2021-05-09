@@ -1,5 +1,18 @@
 .header {
   width: 100%;
   height: 50px;
-  background-color: black;
+  background-color: var(--background-secondary);
+
+  .lightIndicator,
+  .darkIndicator {
+    position: absolute;
+    right: 20px;
+    font-size: 40px;
+  }
+  .lightIndicator {
+    display: var(--display-lightIdicator);
+  }
+  .darkIndicator {
+    display: var(--display-darkIdicator);
+  }
 }

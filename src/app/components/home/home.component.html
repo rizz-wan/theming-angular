@@ -1,3 +1,25 @@
 <p>This project simply implements theming in angular.</p>
-<p>Click this to toggle theme</p>
-<p>Designed and developed by me</p>
+<p>
+  Click <span class="link" (click)="toggleTheme()">this</span> to toggle theme.
+</p>
+<p>
+  Hosted and maintained
+  <a
+    href="https://github.com/rizz-wan/theming-angular"
+    target="_blank"
+    class="link"
+    >here</a
+  >.
+</p>
+
+<!--          credit           -->
+
+<div class="credit">
+  <div id="placeholder" (click)="toggleCredit()">...</div>
+  <div id="content" (click)="toggleCredit()" hidden="true">
+    with <span class="heart">&hearts;</span> from
+    <a class="link" href="https://github.com/rizz-wan" target="_blank"
+      >Rizwan</a
+    >
+  </div>
+</div>
